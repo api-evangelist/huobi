@@ -1,0 +1,32 @@
+aid: huobi
+name: Huobi
+description: "Seychelles based cryptocurrency exchange"
+url: https://huobiapi.github.io/docs/spot/v1/en/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Cryptocurrency"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Cryptocurrency
+  - Public APIs
+apis:
+  - name: Huobi
+    description: "Seychelles based cryptocurrency exchange"
+    humanURL: https://huobiapi.github.io/docs/spot/v1/en/
+    baseURL: https://huobiapi.github.io/docs/spot/v1/en/
+    tags:
+      - Cryptocurrency
+    properties:
+      - type: Documentation
+        url: https://huobiapi.github.io/docs/spot/v1/en/
+common:
+  - type: Website
+    url: https://huobiapi.github.io/docs/spot/v1/en/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
