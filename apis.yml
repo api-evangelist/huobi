@@ -4,7 +4,7 @@ description: "Seychelles based cryptocurrency exchange"
 url: https://huobiapi.github.io/docs/spot/v1/en/
 specificationVersion: '0.20'
 created: '2026-05-28'
-modified: '2026-05-28'
+modified: '2026-05-29'
 x-source: public-apis/public-apis
 x-category: "Cryptocurrency"
 x-tier: 3
@@ -22,6 +22,8 @@ apis:
     properties:
       - type: Documentation
         url: https://huobiapi.github.io/docs/spot/v1/en/
+      - type: AsyncAPI
+        url: https://raw.githubusercontent.com/api-evangelist/huobi/main/asyncapi/huobi-asyncapi.yml
 common:
   - type: Website
     url: https://huobiapi.github.io/docs/spot/v1/en/
