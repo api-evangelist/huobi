@@ -1,57 +1,28 @@
 aid: huobi
-deliveryModel:
-  model: unknown
-  open_source: false
-  commercial: false
-  callable_host: false
-  label: Delivery model not determined — needs a product licence on record
-  confidence: low
-  source:
-  - none
-  generated: '2026-08-28'
-  method: derived
-accessModel:
-  pricing: unknown
-  onboarding: unknown
-  trial: false
-  try_now: false
-  public: false
-  label: Unknown
-  confidence: low
-  source: []
-  generated: '2026-07-22'
-  method: derived
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/huobi.png
 name: Huobi
-description: "Seychelles based cryptocurrency exchange"
-url: https://huobiapi.github.io/docs/spot/v1/en/
-specificationVersion: '0.23'
-created: '2026-05-28'
-modified: '2026-05-29'
-x-source: public-apis/public-apis
-x-category: "Cryptocurrency"
-x-tier: 3
-x-tier-reason: bulk-registered-from-public-apis
+description: Huobi (Huobi Global) is the former name of HTX, the cryptocurrency exchange founded in 2013, rebranded
+  in 2023. Its Spot REST and WebSocket APIs are profiled in the htx repository, which is canonical. Consolidated
+  2026-10-13, approved by Kin Lane.
+type: Index
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/huobi.png
 tags:
-  - Cryptocurrency
-  - Public APIs
-  - Real-Time
-apis:
-  - name: Huobi
-    description: "Seychelles based cryptocurrency exchange"
-    humanURL: https://huobiapi.github.io/docs/spot/v1/en/
-    tags:
-      - Cryptocurrency
-    properties:
-      - type: Documentation
-        url: https://huobiapi.github.io/docs/spot/v1/en/
-      - type: AsyncAPI
-        url: https://raw.githubusercontent.com/api-evangelist/huobi/main/asyncapi/huobi-asyncapi.yml
-common:
-  - type: Website
-    url: https://huobiapi.github.io/docs/spot/v1/en/
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
+- Cryptocurrency
+- Public APIs
+- Real-Time
+url: https://raw.githubusercontent.com/api-evangelist/huobi/refs/heads/main/apis.yml
+created: '2026-05-28'
+modified: '2026-10-13'
+specificationVersion: '0.23'
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+common:
+- type: ParentCompany
+  url: https://htx.com
+  name: HTX (htx)
+- type: Documentation
+  url: https://huobiapi.github.io/docs/spot/v1/en/
+apis: []
+x-parent: htx
+x-relationship: former-name
+x-consolidated-into: htx
