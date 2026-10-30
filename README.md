@@ -64,6 +64,21 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-This profile has been **merged into [htx](https://apis.io/providers/htx/)** — the two records described the same company, and that one is canonical.
+> **Retired — merged into [HTX](https://apis.io/providers/htx/).** The two records described the same company, and that one is canonical. Nothing in this repository is maintained any more.
 
-Nothing here is maintained any more. The company's current profile, rating and artifacts are at [apis.io/providers/htx/](https://apis.io/providers/htx/).
+**Why:** Huobi is HTX's former name (rebranded 2023); htx is canonical and already profiles the Spot REST and WebSocket APIs (api.huobi.pro). Huobi's one doc entry points at the HTX Spot REST API; its WebSocket AsyncAPI (htx had none) was moved into htx and attached to the HTX WebSocket API; channel and rule pages point at the provider page. huobi stays live as a pointer profile with no APIs. Approved by Kin Lane 2026-10-13.
+
+**Retired:** 2026-10-13
+
+## Where to go now
+
+The current profile, APIs, artifacts and rating for HTX are on APIs.io at **[apis.io/providers/htx/](https://apis.io/providers/htx/)**.
+
+Pages that used to belong to this profile now live at:
+
+- [Htx Spot API](https://apis.io/apis/htx/htx-spot-api/)
+- [Htx Websocket AsyncAPI](https://apis.io/asyncapis/htx/htx-websocket-asyncapi/)
+
+## Open an issue
+
+Issues about HTX belong on the canonical profile: [open one on api-evangelist/htx](https://github.com/api-evangelist/htx/issues/new). If you think this merge was a mistake — these were really two companies — say so there or email [info@apievangelist.com](mailto:info@apievangelist.com).
